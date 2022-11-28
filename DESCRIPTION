@@ -1,0 +1,30 @@
+Package: arrR.fishpop
+Type: Package
+Title: Fish population sub-processes of the arrR simulation model
+Version: 0.1.0
+Authors@R: c(person("Maximilian H.K.", "Hesselbarth",
+             role = c("aut", "cre"),
+             email = "mhk.hesselbarth@gmail.com",
+             comment = c(ORCID = "0000-0003-1125-9918")), 
+             person("Kenzo E.", "Esquivel", 
+             role = "aut", 
+             email = "kesquivel@berkeley.edu",
+             comment = c(ORCID = "0000-0002-1326-289X")),
+             person("Katrina S.", "Munsterman", 
+             role = "aut", 
+             email = "kmunster@umich.edu", 
+             comment = c(ORCID = "0000-0002-9303-2049")),
+             person("Jacob E.", "Allgeier", 
+             role = "rth", 
+             email = "jeallg@umich.edu", 
+             comment = c(ORCID = "0000-0002-9005-6432")))
+Maintainer: Maximilian H.K. Hesselbarth <mhk.hesselbarth@gmail.com>
+Description: The goal of arrR.fishpop is to provide all sub-processes related to the fish population
+  of the arrR simulation model. This includes all procceses related to movement and individual growth i.e., all 
+  sub-processes that are individual-based.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends: R (>= 3.1)
+Imports: Rcpp (>= 1.0.9)
+LinkingTo: Rcpp
+RoxygenNote: 7.2.2
